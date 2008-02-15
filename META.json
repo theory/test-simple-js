@@ -1,0 +1,51 @@
+{
+    "resources": {
+        "license": "http://dev.perl.org/licenses/"
+    },
+    "generated_by": "Module::Build version 0.2805",
+    "meta-spec": {
+        "version": 1.2,
+        "url": "http://module-build.sourceforge.net/META-spec-v1.2.html"
+    },
+    "version": 0.22,
+    "name": "Test.Simple",
+    "author": [
+        "David Wheeler <david@kineticode.com>"
+    ],
+    "license": "perl",
+    "keywords": [
+        "testing",
+        "xp",
+        "tap"
+    ],
+    "provides": {
+        "Test.Harness.Director": {
+            "version": 0.22,
+            "file": "lib/Test/Harness/Director.js"
+        },
+        "Test.Builder": {
+            "version": 0.22,
+            "file": "lib/Test/Builder.js"
+        },
+        "Test.Harness": {
+            "version": 0.22,
+            "file": "lib/Test/Harness.js"
+        },
+        "Test.Simple": {
+            "version": 0.22,
+            "file": "lib/Test/Simple.js"
+        },
+        "Test.More": {
+            "version": 0.22,
+            "file": "lib/Test/More.js"
+        },
+        "Test.Harness.Browser": {
+            "version": 0.22,
+            "file": "lib/Test/Harness/Browser.js"
+        }
+    },
+    "recommends": {
+        "JSAN": 0.03
+    },
+    "abstract": "JavaScript testing utilities and harness"
+}
