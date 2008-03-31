@@ -13,6 +13,8 @@ Revision history for JavaScript class Test.Simple.
         exta div at all. Suggested by Luke Closs.
       - Switched from "isPrototypeOf" to "instanceof" in "isaOK". It seems to
         work even in Safari. Patch from Marvin Humphrey.
+      - Added support for JavaScript command-line interpreters. Patch from
+        Thomas Yandell.
 
 0.21  2005-08-29T17:16:33
       - Moved source code to JSAN Subversion repository. Check it out at
