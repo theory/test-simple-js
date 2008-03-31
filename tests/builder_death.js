@@ -21,4 +21,4 @@ catch (ex) {
 }
 
 // Force ending because IE6 needs coercion.
-T._ending(); 
+T._finish(); 
