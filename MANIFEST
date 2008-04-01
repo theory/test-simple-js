@@ -30,6 +30,7 @@ tests/async.js
 tests/bad_plan.js
 tests/buffer.js
 tests/builder.js
+tests/builder_death.js
 tests/circular_data.js
 tests/curr_test.js
 tests/details.js
@@ -45,3 +46,4 @@ tests/output.js
 tests/simple.html
 tests/simple.js
 tests/simpler.html
+tests/test_result.js
