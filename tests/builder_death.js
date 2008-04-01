@@ -19,6 +19,3 @@ try { Test.Builder.die("baz"); }
 catch (ex) {
     T.ok((ex.message === "baz"), "expected 'baz', got '" + ex.message + "'");
 }
-
-// Force ending because IE6 needs coercion.
-T._finish(); 
