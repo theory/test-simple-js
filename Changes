@@ -1,5 +1,7 @@
 Revision history for JavaScript class Test.Simple.
 
+0.23
+
 0.22  2008-04-02T03:19:48
       - Added note to the documentation of "canOK()" explaining why it doesn't
         work for objects based on prototypes created from anonymous classes.
