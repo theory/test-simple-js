@@ -20,7 +20,7 @@ canOK('Test.Builder', 'reset', 'plan', 'skipAll', 'ok', 'isEq',
       'todoSkip', 'skipRest', 'diag', 'todo');
 
 var safari = typeof navigator != "undefined"
-  && /Safari/.test(navigator.userAgent)
+  && /Safari|Konqueror/.test(navigator.userAgent)
     ? true
     : false;
 if (safari) skip("http://bugs.webkit.org/show_bug.cgi?id=3537", 1);

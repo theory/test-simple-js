@@ -2,6 +2,17 @@ Revision history for JavaScript class Test.Simple.
 
 0.23
       - Fixed Test.Browser to work with Konqueror. Patch from Cory Bennett.
+      - Fixed a bunch of syntax errors, typos, and out-and-out broken bits,
+        thanks to a run of jslint by Cory Bennett.
+      - Eliminated Unicode characters from the code, as suggested by jslint.
+        Of course, JavaScript is supposed to be a UTF-8 language, but who
+        knows really, so it's best to be safe and let the implementation
+        work with ASCII. Tests can of course still be written using Unicode.
+      - Fixed a bug in `canOK` where a lack of arguments caused a `diag`
+        output to be missing a class name. Caught by Cory Bennet and jslint.
+      - Changed the name of the `output` variable in `Director.js` to
+        `toOutput`, since `output` is apparently a builtin in Directory.
+        Reported by Cory Bennett.
 
 0.22  2008-04-02T03:19:48
       - Added note to the documentation of "canOK()" explaining why it doesn't

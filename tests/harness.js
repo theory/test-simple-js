@@ -337,7 +337,7 @@ is(pass.splice(0, pass.length).join(''),
 ok(harness = new Test.Harness(), "Create new harness");
 harness.outputSummary(out.pass, 2156);
 is(pass.splice(0, pass.length).join(''),
-   "FAILED—no tests were run for some reason." + Test.Harness.LF
+   "FAILED -- no tests were run for some reason." + Test.Harness.LF
    + "Files=0, Tests=0, 2.156 seconds" + Test.Harness.LF,
    "We should have a no files error message");
 
@@ -361,6 +361,6 @@ ok(!harness._allOK(), "All tests should not be OK");
 is(harness._bonusmsg(), '', "There should be no bonus message");
 harness.outputSummary(out.pass, 215678);
 is(pass.splice(0, pass.length).join(''),
-   "FAILED—1 test file could be run, alas—no output ever seen." + Test.Harness.LF
+   "FAILED -- 1 test file could be run: alas, no output ever seen." + Test.Harness.LF
    + "Files=1, Tests=0, 215.678 seconds" + Test.Harness.LF,
    "We should have a no tests error message");
