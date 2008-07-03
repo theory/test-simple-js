@@ -1,3 +1,4 @@
+use lib 'lib';
 use Test::More tests => 1;
 
 use JS::Test::Simple;
