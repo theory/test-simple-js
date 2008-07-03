@@ -1,0 +1,17 @@
+To make all the tests, run:
+
+    make all
+
+To remove all the tests, run:
+
+    make clean
+
+----
+
+You must make these tests before running:
+
+    make manifest
+
+or
+
+    make dist
