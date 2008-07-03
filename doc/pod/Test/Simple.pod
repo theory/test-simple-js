@@ -6,6 +6,8 @@ our $VERSION = '0.24';
 
 1;
 
+=encoding utf8
+
 =head1 Name
 
 JS::Test::Simple - Basic utilities for writing JavaScript tests.
