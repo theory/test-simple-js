@@ -16,6 +16,7 @@ Revision history for JavaScript class Test.Simple.
       - Changed the name of the `output` variable in `Director.js` to
         `toOutput`, since `output` is apparently a builtin in Directory.
         Reported by Cory Bennett.
+      - Ported to CPAN by Ingy döt Net. Initial CPAN release.
 
 0.22  2008-04-02T03:19:48
       - Added note to the documentation of "canOK()" explaining why it doesn't
