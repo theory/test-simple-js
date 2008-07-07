@@ -3,7 +3,7 @@ Revision history for JavaScript class Test.Simple.
 0.24  2008-07-03T00:59:14
       - Reorganized properly for CPAN by Ingy döt Net.
 
-0.23
+0.23  2008-06-19T00:00:00
       - Fixed Test.Browser to work with Konqueror. Patch from Cory Bennett.
       - Fixed a bunch of syntax errors, typos, and out-and-out broken bits,
         thanks to a run of jslint by Cory Bennett.
