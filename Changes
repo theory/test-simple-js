@@ -1,5 +1,8 @@
 Revision history for JavaScript class Test.Simple.
 
+0.25  2008-07-08T14:07:03
+      - Tweaked the MANIFEST.SKIP to not MANIFEST the MANIFEST.SKIP.
+
 0.24  2008-07-03T00:59:14
       - Reorganized properly for CPAN by Ingy döt Net.
 

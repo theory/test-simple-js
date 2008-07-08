@@ -15,3 +15,5 @@ You must make these tests before running:
 or
 
     make dist
+
+in the parent directory.

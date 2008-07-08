@@ -22,7 +22,6 @@ lib/JS/Test/Simple.pm
 lib/JS/Test/Simple.pod
 Makefile.PL
 MANIFEST			This list of files
-MANIFEST.SKIP
 META.yml
 README
 t/test.t
