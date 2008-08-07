@@ -532,9 +532,10 @@ because you haven't fixed a bug or haven't finished a new feature:
 
 With todo(), C<howMany> specifies how many tests are expected to fail.
 Test.More will run the tests normally, but print out special flags indicating
-they are "todo" tests. Test.Harness will interpret these failures as ok. Should
-any todo test, it Test.Harness will report it as an unexpected success. You
-then know the thing you had todo is done and can remove the call to todo().
+they are "todo" tests. Test.Harness will interpret these failures as ok.
+Should any todo test pass, Test.Harness will report it as an unexpected
+success. You then know the thing you had todo is done and can remove the call
+to todo().
 
 The nice part about todo tests, as opposed to simply commenting out a block of
 tests, is that they're like a programmatic todo list. You know how much work

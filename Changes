@@ -1,5 +1,9 @@
 Revision history for JavaScript class Test.Simple.
 
+0.26
+      - Changed "got/expected" to "have/want", following Schwern's lead
+        with Test::Builder 2.
+
 0.25  2008-07-08T14:07:03
       - Tweaked the MANIFEST.SKIP to not MANIFEST the MANIFEST.SKIP.
 

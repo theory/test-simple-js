@@ -7,15 +7,15 @@ T.diag("Testing for IE6 try/catch/Error load confusion");
 
 try { Test.Builder.die("foo"); }
 catch (ex) {
-    T.ok((ex.message === "foo"), "expected 'foo', got '" + ex.message + "'");
+    T.ok((ex.message === "foo"), "want 'foo', have '" + ex.message + "'");
 }
 
 try { Test.Builder.die("bar"); }
 catch (ex) {
-    T.ok((ex.message === "bar"), "expected 'bar', got '" + ex.message + "'");
+    T.ok((ex.message === "bar"), "want 'bar', have '" + ex.message + "'");
 }
 
 try { Test.Builder.die("baz"); }
 catch (ex) {
-    T.ok((ex.message === "baz"), "expected 'baz', got '" + ex.message + "'");
+    T.ok((ex.message === "baz"), "want 'baz', have '" + ex.message + "'");
 }
