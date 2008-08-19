@@ -1,8 +1,9 @@
 Revision history for JavaScript class Test.Simple.
 
-0.26
+0.26  2008-08-14T15:07:57
       - Changed "got/expected" to "have/want", following Schwern's lead
         with Test::Builder 2.
+      - Make test names be links to individual test urls. --Ingy
 
 0.25  2008-07-08T14:07:03
       - Tweaked the MANIFEST.SKIP to not MANIFEST the MANIFEST.SKIP.

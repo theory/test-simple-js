@@ -6,7 +6,7 @@ The 'cpan/' subdirectory of David Wheeler's Test.Simple JSAN module has
 been set up to be a CPAN module directory for the module JS-Test-Simple.
 
 The idea was to leave the JSAN code (nearly) intact and unchanged,
-while, at the same time (usng the same files), set up a module
+while, at the same time (using the same files), set up a module
 distribution of the code for CPAN.
 
 Much of this setup is accomplished by using symlinks to connect the
