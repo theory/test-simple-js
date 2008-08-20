@@ -1,5 +1,9 @@
 Revision history for JavaScript class Test.Simple.
 
+0.27  2008-08-19T14:09:33
+      - Update Simple doc to not require <pre>
+      - Allow '-' in linked harness file names.
+
 0.26  2008-08-14T15:07:57
       - Changed "got/expected" to "have/want", following Schwern's lead
         with Test::Builder 2.

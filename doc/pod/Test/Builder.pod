@@ -665,7 +665,7 @@ elapsed. The timeout can be specified in milliseconds.
   Test.Simple = {};
   Test.Simple.EXPORT      = ['plan', 'ok'];
   Test.Simple.EXPORT_TAGS = { ':all': Test.Simple.EXPORT };
-  Test.Simple.VERSION     = '0.26';
+  Test.Simple.VERSION     = '0.27';
 
   // .... Declare exportable functions, then export them.
 

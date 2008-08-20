@@ -2,7 +2,7 @@ package JS::Test::Simple;
 
 use 5.006;
 
-our $VERSION = '0.26';
+our $VERSION = '0.27';
 
 1;
 
@@ -14,12 +14,10 @@ Test.Simple - Basic utilities for writing JavaScript tests.
 
 =head1 Synopsis
 
-  <pre id="test">
-    <script type="text/javascript">
-      plan({ tests: 1 });
-      ok( foo == bar, 'foo is bar' );
-    </script>
-  </pre>
+  <script type="text/javascript">
+    plan({ tests: 1 });
+    ok( foo == bar, 'foo is bar' );
+  </script>
 
 =head1 Description
 
@@ -31,16 +29,13 @@ The basic unit of testing is the ok. For each thing you want to test your
 program will print out an "ok" or "not ok" to indicate pass or fail. You do
 this with the ok() function (see below).
 
-The only other constraints are that you put your test code into an HTML
-element with the "test" ID, and that you must pre-declare how many tests you
+The only other constraint is that you must pre-declare how many tests you
 plan to run. This is in case something goes horribly wrong during the test and
 your test program aborts, or skips a test or whatever. You do this like so:
 
-  <pre id="test">
-    <script type="text/javascript">
-  plan({ tests: 23 });
-    </script>
-  </pre>
+  <script type="text/javascript">
+    plan({ tests: 23 });
+  </script>
 
 You B<must> have a plan.
 
@@ -94,20 +89,18 @@ class:
     <script type="text/javascript" src="Film.js"></script>
   </head>
   <body>
-    <pre id="test">
-      <script type="text/javascript">
-        var btaste = new Film('Bad Taste');
-        btaste.director('Peter Jackson');
-        btaste.rating('R');
-        btaste.numExplodingSheep('1');
+    <script type="text/javascript">
+      var btaste = new Film('Bad Taste');
+      btaste.director('Peter Jackson');
+      btaste.rating('R');
+      btaste.numExplodingSheep('1');
 
-        ok( btaste && typeof btaste == 'object', 'Constructor works' );
-        ok( btaste.title()    == 'Bad Taste',     'title() get'       );
-        ok( btaste.director() == 'Peter Jackson', 'director() get' );
-        ok( btaste.rating()   == 'R',             'rating() get'   );
-        ok( btaste.numExplodingSheep() == 1,      'numExplodingSheep() get' );
-      </script>
-    </pre>
+      ok( btaste && typeof btaste == 'object', 'Constructor works' );
+      ok( btaste.title()    == 'Bad Taste',     'title() get'       );
+      ok( btaste.director() == 'Peter Jackson', 'director() get' );
+      ok( btaste.rating()   == 'R',             'rating() get'   );
+      ok( btaste.numExplodingSheep() == 1,      'numExplodingSheep() get' );
+    </script>
   </body>
 
 It will produce output like this:
@@ -162,8 +155,8 @@ JSUnit: elaborate xUnit-style testing framework.
 
 Idea by Tony Bowden and Paul Johnson. Original Perl implementation by Michael
 G Schwern <schwern@pobox.com>. JavaScript implementation by David Wheeler
-<david@kineticode.com>. JavaScript ported to CPAN by Ingy döt Net
-<ingy@ingy.net>. Wardrobe by Calvin Klein.
+<david@kineticode.com>. JavaScript implementation packaged for CPAN by Ingy
+döt Net <ingy@ingy.net>. Wardrobe by Calvin Klein.
 
 =head1 Copyright
 
