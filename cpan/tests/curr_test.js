@@ -1,0 +1,1 @@
+../../tests/curr_test.js
