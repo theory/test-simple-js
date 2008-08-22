@@ -1,14 +1,17 @@
 Revision history for JavaScript class Test.Simple.
 
+0.28  
+      - Fix line breaks in new harness output in IE. --ingy
+
 0.27  2008-08-19T14:09:33
       - Update documentation to reflect that the `<pre>` is no longer
-        required.
-      - Allow '-' in linked harness file names.
+        required. --ingy
+      - Allow '-' in linked harness file names. --ingy
 
 0.26  2008-08-14T15:07:57
       - Changed "got/expected" to "have/want", following Schwern's lead
         with Test::Builder 2.
-      - Make test names be links to individual test urls. --Ingy
+      - Make test names be links to individual test urls. --ingy
 
 0.25  2008-07-08T14:07:03
       - Tweaked the MANIFEST.SKIP to not MANIFEST the MANIFEST.SKIP.
