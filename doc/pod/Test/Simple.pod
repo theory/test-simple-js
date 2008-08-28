@@ -2,7 +2,7 @@ package JS::Test::Simple;
 
 use 5.006;
 
-our $VERSION = '0.27';
+our $VERSION = '0.28';
 
 1;
 
