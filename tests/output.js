@@ -67,7 +67,7 @@ function testfail () {
     is(failout.splice(0, failout.length).join(''),
        "#     Failed test" + Test.Builder.LF +
        "#     Failed test" + Test.Builder.LF +
-       "# Looks like you planned 3 tests but ran 2 extra." + Test.Builder.LF,
+       "# Looks like you planned 3 tests but ran 5." + Test.Builder.LF,
        "...and we should get the correct extras output"
     );
 }
@@ -90,9 +90,8 @@ function testfail () {
        "ok 3" + Test.Builder.LF,
        "We should have the correct test count"
      );
-
     is(failout.splice(0, failout.length).join(''),
-       "# Looks like you planned 1 test but ran 2 extra." + Test.Builder.LF,
+       "# Looks like you planned 1 test but ran 3." + Test.Builder.LF,
        "...and we should have the correct failure output"
      );
 }
@@ -171,7 +170,7 @@ function testfail () {
     );
 
     is(failout.splice(0, failout.length).join(''),
-       "# Looks like you planned 7 tests but only ran 2." + Test.Builder.LF,
+       "# Looks like you planned 7 tests but ran 2." + Test.Builder.LF,
        "...and we should have the correct failure output"
      );
 }
