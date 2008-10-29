@@ -23,6 +23,25 @@ Test.Harness.Browser - Run TAP standard JavaScript test scripts with statistics 
   </body>
   </html>
 
+or non-JSAN approach (JavaScript test files will not work without JSAN)
+
+  <html>
+  <head>
+    <script type="text/javascript" src="Test/Harness.js"></script>
+    <script type="text/javascript" src="Test/Harness/Browser.js"></script>
+  </head>
+  <body>
+    <script type="text/javascript">
+      Test.Harness.Browser.runTests(
+          'async.html',
+          'bad_plan.html',
+          'buffer.html',
+          'builder.html'
+      );
+    </script>
+  </body>
+  </html>
+
 =head1 Description
 
 B<STOP!> If all you want to do is write a test script, consider using

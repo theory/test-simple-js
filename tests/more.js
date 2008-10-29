@@ -1,5 +1,5 @@
 new JSAN('../lib').use('Test.More');
-plan({tests: 34});
+plan({tests: 35});
 
 ok( 2 == 2,             'two is two is two is two' );
 is( "foo", "foo",       'foo is foo' );
@@ -109,3 +109,10 @@ cmpOK(0, '||', 1,          '      ||');
 
 isSet([1, 2, [3]], [[3], 1, 2], "isSet() should work with refs" );
 isSet([1, 2, [3]], [1, [3], 2], "isSet() should work with reordered refs" );
+
+function TestObject() {
+    this.myMethod = function () {};
+}
+TestObject.prototype.protoMethod = function () {};
+var testObject = new TestObject();
+canOK( testObject, 'myMethod', 'protoMethod' );

@@ -4,6 +4,33 @@ Revision history for JavaScript class Test.Simple.
       - As in Test::Builder 0.81_01, changed the message for extra tests run
         to show the number of tests run rather than the number extra to avoid
         the user having to do mental math. --theory
+      - Fixed the test summary to be a `<pre>` tag instead of a `<div>` with a
+        style attribute to make the output match. --jbisbee
+      - Fixed Test.Builder so that it no longer wraps errors in a `<span>` tag
+        now that we're appending to a text node (They don't don't get turned
+        DOM elements). --jbisbee
+
+      - Fixed bug with `canOK()`. It only checked objects prototype and not
+        the object itself. This means that if you had this code
+
+            function TestObject() { this.myMethod = function() {}; }
+            TestObject.prototype.protoMethod = function() {};
+
+            var testObject = new TestObject();
+            canOK( testObject, 'myMethod', 'protoMethod' );
+
+        then `canOK()` in its previous form would not find `myMethod`. It now
+        actually checks to see if you pass in instantiated objects.a --jbisbee
+      - Fixed a bug when testing a DOM element's `scrollTop` attribute within
+        a browser harness IFRAME that is 0X0 "display: none". We now Default
+        all harness `iframe`s to be both hidden and 1x1 pixels. Yes, there may
+        be a little square in some browsers that don't properly hide the
+        iframe, but at least tests that work outside the harness will now also
+        work within it --jbisbee
+      - Documented how to use `Test.Harness.Browser` without JSAN. --jbisbee
+      - Fix a summary bug in `Test.Builder` -- it wasn't reporting failures!
+        failed any tests, it wasn't reporting them! Thanks to Jeff Platter for
+        finding and fixing this issue. --jbisbee
 
 0.28  2008-08-27T23:27:57
       - Fix line breaks in new harness output in IE. --ingy
