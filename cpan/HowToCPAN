@@ -61,7 +61,7 @@ CPAN as JS-Test-Simple.
 NOTE: Please update these instructions with any extra steps you
       encounter that are not detailed (or detailed improperly) here.
 
-1) cd into this directory. (openjsan/users/theory/Test.Simple/trunk/cpan)
+1) cd into this directory. (cpan)
 2) Make your coding changes
 
 Almost all the files in the cpan/ directory are symlinks, so you can edit
