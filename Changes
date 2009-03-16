@@ -31,6 +31,8 @@ Revision history for JavaScript class Test.Simple.
       - Fix a summary bug in `Test.Builder` -- it wasn't reporting failures!
         failed any tests, it wasn't reporting them! Thanks to Jeff Platter for
         finding and fixing this issue. --jbisbee
+      - Moved source code to GitHub. Clone it from
+        git://github.com/theory/js-test-simple.git!
 
 0.28  2008-08-27T23:27:57
       - Fix line breaks in new harness output in IE. --ingy
