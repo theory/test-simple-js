@@ -1,6 +1,6 @@
 Revision history for JavaScript class Test.Simple.
 
-0.29
+0.29  2009-08-21T22:09:35
       - As in Test::Builder 0.81_01, changed the message for extra tests run
         to show the number of tests run rather than the number extra to avoid
         the user having to do mental math. --theory
