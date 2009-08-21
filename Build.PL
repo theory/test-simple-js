@@ -18,7 +18,7 @@ $class->new(
     keywords       => [qw(testing xp tap)],
     recommends     => {
         JSAN       => 0.03,
-    }
+    },
     meta_merge     => {
         resources => {
             homepage    => 'http://github.com/theory/test-simple-js/',
