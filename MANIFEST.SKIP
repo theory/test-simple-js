@@ -6,4 +6,6 @@
 ^MANIFEST\.SKIP$
 ^Test\.?Simple
 \.svn
-^cpan$
+\.git
+\.gitignore
+^cpan

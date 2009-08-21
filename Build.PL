@@ -1,5 +1,3 @@
-use lib "$ENV{HOME}/dev/jsan/perl/Module-Build-JSAN/trunk/blib/lib";
-use lib "$ENV{HOME}/dev/jsan/perl/Module-Build-JSAN/trunk/lib";
 use Module::Build::JSAN;
 
 my $build = Module::Build::JSAN->new(
