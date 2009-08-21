@@ -2,5 +2,6 @@ _build
 doc/html
 doc/text
 Test.Simple-*
-MANIFEST.bak
+MANIFEST*
+META.*
 Build
