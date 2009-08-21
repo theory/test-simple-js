@@ -2,6 +2,7 @@ _build
 doc/html
 doc/text
 Test.Simple-*
+JS-Test-Simple-*
 MANIFEST*
 META.*
 Build
