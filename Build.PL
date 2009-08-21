@@ -1,6 +1,16 @@
 use Module::Build::JSAN;
 
-my $build = Module::Build::JSAN->new(
+# Delete generated files in realclean.
+my $class = Module::Build::JSAN->subclass(code => <<'EOF');
+    sub ACTION_realclean {
+        my $self = shift;
+        $self->SUPER::ACTION_realclean();
+        $self->delete_filetree($_) for 'MANIFEST',  $self->metafile;
+
+    }
+EOF
+
+$class->new(
     module_name    => 'Test.Simple',
     license        => 'perl',
     dist_author    => 'David Wheeler <david@kineticode.com>',
@@ -9,6 +19,4 @@ my $build = Module::Build::JSAN->new(
     recommends     => {
         JSAN       => 0.03,
     }
-);
-
-$build->create_build_script;
+)->create_build_script;
