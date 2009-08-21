@@ -33,6 +33,8 @@ Revision history for JavaScript class Test.Simple.
         finding and fixing this issue. --jbisbee
       - Moved source code to GitHub. Clone it from
         git://github.com/theory/js-test-simple.git!
+      - Got `Test.Harness.Browser` working on Firefox again. Thanks to Nikolas
+        Coukouma for pointing me at the solution.
 
 0.28  2008-08-27T23:27:57
       - Fix line breaks in new harness output in IE. --ingy
