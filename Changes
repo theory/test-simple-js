@@ -1,6 +1,8 @@
 Revision history for JavaScript class Test.Simple.
 
 0.30
+      - Added missing plan to the "Example" section of the Test-Simple docs.
+        Thanks to Marshall Roch for the spot.
 
 0.29  2009-08-21T22:09:35
       - As in Test::Builder 0.81_01, changed the message for extra tests run

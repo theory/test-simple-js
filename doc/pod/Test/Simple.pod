@@ -90,6 +90,7 @@ class:
   </head>
   <body>
     <script type="text/javascript">
+      plan({ tests: 1 });
       var btaste = new Film('Bad Taste');
       btaste.director('Peter Jackson');
       btaste.rating('R');
