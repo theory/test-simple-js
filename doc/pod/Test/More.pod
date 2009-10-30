@@ -726,12 +726,12 @@ JSUnit: elaborate xUnit-style testing framework.
 Michael G Schwern <schwern@pobox.com> with much inspiration from Joshua
 Pritikin's Test module and lots of help from Barrie Slaymaker, Tony Bowden,
 blackstar.co.uk, chromatic, Fergal Daly and the perl-qa gang. JavaScript
-implementation by David Wheeler <david@kineticode.com>.
+implementation by David E. Wheeler <david@justatheory.com>.
 
 =head1 Copyright
 
 Copyright 2001, 2002, 2004 by Michael G Schwern <schwern@pobox.com>, 2005 by
-David Wheeler.
+David E. Wheeler.
 
 This program is free software; you can redistribute it and/or modify it under
 the terms of the Perl Artistic License or the GNU GPL.

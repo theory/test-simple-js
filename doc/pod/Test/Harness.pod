@@ -135,12 +135,12 @@ L<Test.Simple> and L<Test.More>, modules with which to write tests.
 
 =head1 Authors
 
-David Wheeler <david@kineticode.com>, based on the original Test::Harness
+David E. Wheeler <david@justatheory.com>, based on the original Test::Harness
 included with Perl.
 
 =head1 Copyright
 
-Copyright 2005 by David Wheeler <david@kineticode.com>
+Copyright 2005 by David E. Wheeler <david@justatheory.com>
 
 This program is free software; you can redistribute it and/or modify it under
 the terms of the Perl Artistic License or the GNU GPL.

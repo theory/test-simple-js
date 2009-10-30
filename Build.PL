@@ -13,7 +13,7 @@ EOF
 $class->new(
     module_name    => 'Test.Simple',
     license        => 'perl',
-    dist_author    => 'David E. Wheeler <david@kineticode.com>',
+    dist_author    => 'David E. Wheeler <david@justatheory.com>',
     dist_abstract  => 'JavaScript testing utilities and harness',
     keywords       => [qw(testing xp tap)],
     recommends     => {

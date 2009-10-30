@@ -6,3 +6,5 @@ JS-Test-Simple-*
 MANIFEST*
 META.*
 Build
+cpan/Makefile
+cpan/inc/

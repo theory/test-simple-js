@@ -67,12 +67,12 @@ L<Test.Simple> and L<Test.More>, modules with which to write tests.
 
 =head1 Authors
 
-Gordon McCreight <gordon@mccrieght.com> and David Wheeler
-<david@kineticode.com>.
+Gordon McCreight <gordon@mccrieght.com> and David E. Wheeler
+<david@justatheory.com>.
 
 =head1 Copyright
 
-Copyright 2005 by David Wheeler <david@kineticode.com>
+Copyright 2005 by David E. Wheeler <david@justatheory.com>
 
 This program is free software; you can redistribute it and/or modify it under
 the terms of the Perl Artistic License or the GNU GPL.

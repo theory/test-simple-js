@@ -723,8 +723,8 @@ possible?).
 =head1 Authors
 
 Original Perl code by chromatic and maintained by Michael G Schwern
-<schwern@pobox.com>. Ported to JavaScript by David Wheeler
-<david@kineticode.com>.
+<schwern@pobox.com>. Ported to JavaScript by David E. Wheeler
+<david@justatheory.com>.
 
 =head1 Copyright
 
