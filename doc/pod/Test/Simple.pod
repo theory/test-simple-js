@@ -173,8 +173,14 @@ döt Net <ingy@ingy.net>. Wardrobe by Calvin Klein.
 
 =head1 Copyright
 
+Copyright 2002, 2004 by chromatic <chromatic@wgz.org> and Michael G Schwern
+<schwern@pobox.com>; 2005-2009 by David E. Wheeler <david@kineticode.com>.
+Some Rights Reserved.
+
+=head1 Copyright and License
+
 Copyright 2001, 2002, 2004 by Michael G Schwern <schwern@pobox.com>, 2005,
-2008 by David E. Wheeler.
+2008 by David E. Wheeler. Some Rights Reserved.
 
 This program is free software; you can redistribute it and/or modify it under
 the terms of the Perl Artistic License or the GNU GPL.

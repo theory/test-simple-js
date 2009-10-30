@@ -720,16 +720,21 @@ possible?).
 
 =back
 
-=head1 Authors
+=head1 Author
+
+David E. Wheeler <david@justatheory.com>
+
+=head1 Credits
 
 Original Perl code by chromatic and maintained by Michael G Schwern
 <schwern@pobox.com>. Ported to JavaScript by David E. Wheeler
 <david@justatheory.com>.
 
-=head1 Copyright
+=head1 Copyright and License
 
 Copyright 2002, 2004 by chromatic <chromatic@wgz.org> and Michael G Schwern
-<schwern@pobox.com>, 2005 by David Wheeler <david@kineticode.com>.
+<schwern@pobox.com>; 2005-2009 by David E. Wheeler <david@kineticode.com>.
+Some Rights Reserved.
 
 This program is free software; you can redistribute it and/or modify it under
 the terms of the Perl Artistic License or the GNU GPL.
